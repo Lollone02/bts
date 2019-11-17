@@ -1,0 +1,118 @@
+body{
+    background-color: #ffffff;
+    background-image: url("bg/bg.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+.body
+{
+    z-index :0;
+}
+#nav1
+{  
+    background-color:rgb(37, 34, 34); /*whichever you want*/
+    opacity: 0.5; 
+    filter:(opacity=50); 
+}
+
+#src
+{
+    background-color: black;
+    color : white;
+    font-size : 24px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 50px;
+    width: 45px;
+    transition-duration: 0.4s;
+    margin-right: 0px;
+}
+
+.container-fluid
+{
+    padding : 0px;
+    margin : 0px;
+}
+
+#src:focus
+{
+    width : 200px;
+    transition: all 0.8s;}
+
+#srcicon
+{
+    color: black;
+}
+
+#dropm
+{
+    transition-duration: 0.4s;
+    transition: all 0.8s;
+}
+
+#alert
+{
+   position: fixed;
+   bottom: 5px;
+   margin-left: auto;
+   margin-right: auto;
+   opacity : 1;
+}
+
+.container
+{
+    width: 90%;
+    
+    display: block;
+    
+}
+
+.cont
+{
+    z-index : 1;
+}
+
+.center
+{
+    padding: auto;
+    margin: auto;
+}
+
+.footer
+{
+    position: relative;
+    bottom : 0;
+    left : 0;
+    right : 0;
+    height: 10vh;
+    margin-bottom : 0px;
+    background: linear-gradient(90deg, #000, #121212);
+    z-index: 0;
+    color : white;
+    text-align: center;
+}
+
+
+
+#title
+{
+    width: 8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cont2
+{
+    width:50%;
+}
+
+#immagine
+{
+    margin-right:auto;
+    margin-left:50px;
+    width: 200px; 
+    height: auto; 
+}
